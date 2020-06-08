@@ -4,4 +4,7 @@ git add : To add a new file into git
 
 git commit -m "commit_statement"  : To save the changes in the file
 
-git push -u origin master : To push/upload the file from local system to the Github repository.
+git push -u origin master : To push/upload the file from local system to the Github repository from master branch.
+
+
+git push -u origin branch_name:master : To push/upload the file from local system to the Github repository from another branch.
